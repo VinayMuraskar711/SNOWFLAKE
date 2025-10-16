@@ -30,7 +30,7 @@ A cutting-edge **Model Context Protocol (MCP) server** for Zerodha Kite trading 
 - **Volatility Checks** - High-volatility stock warnings
 - **Margin Utilization** - Real-time margin monitoring
 
-### 📊 Comprehensive Analytics
+###  Comprehensive Analytics
 - **Portfolio Metrics** - Sharpe ratio, drawdown, volatility analysis
 - **Performance Attribution** - Identify top/worst performers
 - **Sector Analysis** - Portfolio sector allocation
