@@ -1,4 +1,4 @@
-# 🚀 Zerodha MCP Server - Advanced Trading & Analytics Platform
+#  Zerodha MCP Server - Advanced Trading & Analytics Platform
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![MCP](https://img.shields.io/badge/MCP-1.0+-green.svg)](https://modelcontextprotocol.io/)
@@ -6,23 +6,23 @@
 
 A cutting-edge **Model Context Protocol (MCP) server** for Zerodha Kite trading platform, featuring real-time market data streaming, advanced portfolio analytics, AI-powered trading strategies, and comprehensive risk management.
 
-## ✨ Features
+##  Features
 
-### 🔥 Core Trading Features
+###  Core Trading Features
 - **Complete Zerodha Kite API Integration** - All trading operations supported
 - **Real-time Market Data Streaming** - WebSocket-based live data feeds
 - **Order Management** - Place, modify, cancel orders with risk validation
 - **Portfolio Analytics** - Advanced metrics and performance analysis
 - **Position Tracking** - Real-time P&L and exposure monitoring
 
-### 🧠 AI-Powered Analytics
+###  AI-Powered Analytics
 - **Technical Analysis** - RSI, MACD, Bollinger Bands, Moving Averages, ATR, Stochastic
 - **Trading Strategies** - SMA Crossover, Mean Reversion, Momentum, Pairs Trading
 - **Backtesting Engine** - Test strategies with historical data
 - **Signal Generation** - Live trading signals with confidence scores
 - **Risk Scoring** - AI-powered risk assessment
 
-### 🛡️ Advanced Risk Management
+###  Advanced Risk Management
 - **Position Size Limits** - Configurable maximum position sizes
 - **Daily Loss Limits** - Automatic trading halt on loss thresholds
 - **Portfolio Concentration** - Diversification monitoring
@@ -37,7 +37,7 @@ A cutting-edge **Model Context Protocol (MCP) server** for Zerodha Kite trading 
 - **Risk Decomposition** - Factor-based risk analysis
 - **Correlation Matrix** - Position correlation analysis
 
-### 🔔 Smart Alerts & Notifications
+###  Smart Alerts & Notifications
 - **Price Alerts** - Custom price target notifications
 - **Risk Alerts** - Automated risk threshold warnings
 - **Performance Alerts** - Portfolio milestone notifications
@@ -104,7 +104,7 @@ Create `.vscode/mcp.json` in your workspace:
 }
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Initialize Session
 
@@ -186,34 +186,34 @@ backtest_strategy({
 })
 ```
 
-## 📚 Available Tools
+##  Available Tools
 
-### 🔐 Authentication
+###  Authentication
 - `initialize_session` - Setup Kite API connection
 
-### 📈 Market Data
+###  Market Data
 - `get_market_quotes` - Real-time market quotes
 - `get_historical_data` - Historical OHLC data
 - `search_instruments` - Find trading instruments
 
-### 💼 Trading
+###  Trading
 - `place_order` - Place buy/sell orders
 - `modify_order` - Modify existing orders
 - `cancel_order` - Cancel pending orders
 
-### 📊 Analytics
+###  Analytics
 - `calculate_portfolio_metrics` - Portfolio analysis
 - `technical_analysis` - Technical indicators
 - `check_risk_limits` - Risk assessment
 
-### 🎯 Strategy
+###  Strategy
 - `backtest_strategy` - Strategy backtesting
 - `get_live_signals` - Real-time trading signals
 
-### 🔔 Alerts
+###  Alerts
 - `setup_price_alert` - Price target alerts
 
-## 🔧 Configuration Options
+##  Configuration Options
 
 ### Risk Management Settings
 ```python
@@ -274,7 +274,7 @@ isort src/
 mypy src/
 ```
 
-## 🔒 Security Best Practices
+##  Security Best Practices
 
 1. **Never commit API credentials** to version control
 2. **Use environment variables** for sensitive data
@@ -283,7 +283,7 @@ mypy src/
 5. **Use paper trading** for testing strategies
 6. **Review risk limits** before live trading
 
-## 📈 Performance Optimization
+##  Performance Optimization
 
 - **Connection pooling** for API requests
 - **Async operations** for parallel processing
@@ -291,7 +291,7 @@ mypy src/
 - **WebSocket streaming** for real-time updates
 - **Efficient data structures** for large datasets
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -317,7 +317,7 @@ export LOG_LEVEL=DEBUG
 python -m zerodha_mcp_server
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -329,18 +329,18 @@ python -m zerodha_mcp_server
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **This software is for educational and research purposes only. Trading in financial markets involves substantial risk of loss. The authors and contributors are not responsible for any financial losses incurred from using this software. Always test strategies thoroughly before using real money.**
 
-## 🔗 Resources
+##  Resources
 
 - [Zerodha Kite API Documentation](https://kite.trade/docs/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/create-python-server)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 
-## 📞 Support
+##  Support
 
 For support and questions:
 
@@ -351,6 +351,6 @@ For support and questions:
 
 ---
 
-**Built with ❤️ for the trading community**
+**Built with for the trading community**
 
-**⭐ Star this repository if you find it useful!**
+** Star this repository if you find it useful!**
